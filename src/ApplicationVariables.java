@@ -7,8 +7,12 @@ public class ApplicationVariables {
         int var4 = 400;
         int sum;
 
-        sum = var1 + var2 + var3 + var4;
+        sum = sumFunction(var1, var2);
 
         System.out.println(sum);
+    }
+
+    public static int sumFunction (int var1, int var2){
+        return (var1 + var2);
     }
 }
