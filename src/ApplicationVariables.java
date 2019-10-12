@@ -1,6 +1,7 @@
 public class ApplicationVariables {
 
     public static void main(String[] args){
+        //Declaration
         int var1 = 200;
         int var2 = 400;
         int var3 = 900;
@@ -8,10 +9,12 @@ public class ApplicationVariables {
         int sum;
         int multi;
 
+        //Processing
         sum = sumFunction(var1, var2);
         multi = multiFunction(var1,var2);
 
 
+        //View
         System.out.println(sum);
         System.out.println(multi);
     }
