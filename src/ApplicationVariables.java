@@ -8,15 +8,20 @@ public class ApplicationVariables {
         int var4 = 400;
         int sum;
         int multi;
+        String A = "Maryam";
+        String B = "Aslam";
+        String C;
 
         //Processing
         sum = sumFunction(var1, var2);
         multi = multiFunction(var1,var2);
+        C = sumString(A,B);
 
 
         //View
         System.out.println(sum);
         System.out.println(multi);
+        System.out.println((C));
     }
 
     public static int sumFunction (int var1, int var2){
@@ -27,5 +32,8 @@ public class ApplicationVariables {
         return (var1 * var2);
     }
 
+    public static String sumString(String A,String B){
+        return (A + " " + B);
+    }
 }
 
