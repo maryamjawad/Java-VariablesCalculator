@@ -11,17 +11,24 @@ public class ApplicationVariables {
         String A = "Maryam";
         String B = "Aslam";
         String C;
+        Double num1 = 90.89;
+        Double num2 = 67.56;
+        Double sumDouble;
+
+
 
         //Processing
         sum = sumFunction(var1, var2);
         multi = multiFunction(var1,var2);
         C = sumString(A,B);
+        sumDouble= sumDouble(num1,num2);
 
 
         //View
         System.out.println(sum);
         System.out.println(multi);
         System.out.println((C));
+        System.out.println(sumDouble);
     }
 
     public static int sumFunction (int var1, int var2){
@@ -35,5 +42,9 @@ public class ApplicationVariables {
     public static String sumString(String A,String B){
         return (A + " " + B);
     }
+    public static Double sumDouble(Double num1, Double num2){
+        return (num1 + num2);
+    }
+
 }
 
